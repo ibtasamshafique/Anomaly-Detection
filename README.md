@@ -35,15 +35,15 @@ The dataset represents the standard **car insurance claims process**, which foll
 ## Notebook Structure  
 
 ### **1️⃣ Data Cleaning**  
-Handling missing values  
-Formatting timestamps and sorting events  
-Removing duplicates and inconsistencies  
+- Handling missing values  
+- Formatting timestamps and sorting events  
+- Removing duplicates and inconsistencies  
 
 ### **2️⃣ Exploratory Data Analysis (EDA)**  
-Understanding the distribution of claims  
-Identifying trends and seasonality  
-Visualizing claim amounts and processing times  
-Analyzing the lifecycle of claims  
+- Understanding the distribution of claims  
+- Identifying trends and seasonality  
+- Visualizing claim amounts and processing times  
+- Analyzing the lifecycle of claims  
 
 ### **3️⃣ Anomaly Detection**  
 - **Statistical Methods:** Z-Score, IQR  
@@ -53,12 +53,12 @@ Analyzing the lifecycle of claims
 - **Process Flow Analysis:** Checking if events follow the correct sequence  
 
 #### **Scenarios Considered for Anomalies:**  
-**Unusual claim amounts** _(depends on car year & accident type)_  
-**Duplicate or multiple claims by the same claimant**  
-**Delays between process stages**  
-**Unusual age patterns among claimants**  
-**Adjusters with abnormal damage assessments**  
-**Events that do not follow the expected process flow**  
+- **Unusual claim amounts** _(depends on car year & accident type)_  
+- **Duplicate or multiple claims by the same claimant**  
+- **Delays between process stages**  
+- **Unusual age patterns among claimants**  
+- **Adjusters with abnormal damage assessments**  
+- **Events that do not follow the expected process flow**  
 
 ### **Evaluation of Results**  
 Identifying common anomalies across methods  
