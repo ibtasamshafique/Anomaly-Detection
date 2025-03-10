@@ -46,21 +46,21 @@ The dataset represents the standard **car insurance claims process**, which foll
 ✔ Analyzing the lifecycle of claims  
 
 ### 🔍 **3️⃣ Anomaly Detection**  
-- **📈 Statistical Methods:** Z-Score, IQR  
-- **🔢 Clustering:** K-Means, DBSCAN  
-- **🤖 Machine Learning:** One-Class SVM  
-- **🧠 Deep Learning:** Autoencoders  
-- **📜 Process Flow Analysis:** Checking if events follow the correct sequence  
+- **Statistical Methods:** Z-Score, IQR  
+- **Clustering:** K-Means, DBSCAN  
+- **Machine Learning:** One-Class SVM  
+- **Deep Learning:** Autoencoders  
+- **Process Flow Analysis:** Checking if events follow the correct sequence  
 
 #### **🚩 Scenarios Considered for Anomalies:**  
-✅ **Unusual claim amounts** _(depends on car year & accident type)_  
-✅ **Duplicate or multiple claims by the same claimant**  
-✅ **Delays between process stages**  
-✅ **Unusual age patterns among claimants**  
-✅ **Adjusters with abnormal damage assessments**  
-✅ **Events that do not follow the expected process flow**  
+**Unusual claim amounts** _(depends on car year & accident type)_  
+**Duplicate or multiple claims by the same claimant**  
+**Delays between process stages**  
+**Unusual age patterns among claimants**  
+**Adjusters with abnormal damage assessments**  
+**Events that do not follow the expected process flow**  
 
-### 📊 **4️⃣ Evaluation of Results**  
+### 📊 **Evaluation of Results**  
 ✔ Identifying common anomalies across methods  
 ✔ Comparing detection accuracy and effectiveness  
 ✔ Visualizing flagged cases  
