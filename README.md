@@ -1,19 +1,19 @@
 # 🚗 Car Insurance Claims - Process Mining & Anomaly Detection
 
-## 📌 Overview  
+## Overview  
 This repository contains a **Jupyter Notebook** that explores an event log dataset for **car insurance claims**. The dataset is designed for **process mining**, enabling analysis of bottlenecks, automation opportunities, conformance issues, reworks, and potential fraud detection.  
 
 The primary focus of my analysis is **anomaly detection** across different attributes of the claims process.  
 
 ---
 
-## 📂 Dataset Description  
+## Dataset Description  
 The dataset represents the standard **car insurance claims process**, which follows this workflow:  
 
-### 🔄 **Standard Process Flow:**  
+### **Standard Process Flow:**  
 > **First Notification of Loss (FNOL)** → **Assign Claim** → **Claim Decision** → **Set Reserve** → **Payment Sent** → **Close Claim**  
 
-### 📊 **Attributes:**  
+### **Attributes:**  
 - `case ID` → Unique identifier for each claim  
 - `activity name` → Stage in the claims process  
 - `timestamp` → Time of event occurrence  
@@ -32,27 +32,27 @@ The dataset represents the standard **car insurance claims process**, which foll
 
 ---
 
-## 📑 Notebook Structure  
+## Notebook Structure  
 
-### 🧹 **1️⃣ Data Cleaning**  
-✔ Handling missing values  
-✔ Formatting timestamps and sorting events  
-✔ Removing duplicates and inconsistencies  
+### **1️⃣ Data Cleaning**  
+Handling missing values  
+Formatting timestamps and sorting events  
+Removing duplicates and inconsistencies  
 
-### 📊 **2️⃣ Exploratory Data Analysis (EDA)**  
-✔ Understanding the distribution of claims  
-✔ Identifying trends and seasonality  
-✔ Visualizing claim amounts and processing times  
-✔ Analyzing the lifecycle of claims  
+### **2️⃣ Exploratory Data Analysis (EDA)**  
+Understanding the distribution of claims  
+Identifying trends and seasonality  
+Visualizing claim amounts and processing times  
+Analyzing the lifecycle of claims  
 
-### 🔍 **3️⃣ Anomaly Detection**  
+### **3️⃣ Anomaly Detection**  
 - **Statistical Methods:** Z-Score, IQR  
 - **Clustering:** K-Means, DBSCAN  
 - **Machine Learning:** One-Class SVM  
 - **Deep Learning:** Autoencoders  
 - **Process Flow Analysis:** Checking if events follow the correct sequence  
 
-#### **🚩 Scenarios Considered for Anomalies:**  
+#### **Scenarios Considered for Anomalies:**  
 **Unusual claim amounts** _(depends on car year & accident type)_  
 **Duplicate or multiple claims by the same claimant**  
 **Delays between process stages**  
@@ -60,10 +60,10 @@ The dataset represents the standard **car insurance claims process**, which foll
 **Adjusters with abnormal damage assessments**  
 **Events that do not follow the expected process flow**  
 
-### 📊 **Evaluation of Results**  
-✔ Identifying common anomalies across methods  
-✔ Comparing detection accuracy and effectiveness  
-✔ Visualizing flagged cases  
+### **Evaluation of Results**  
+Identifying common anomalies across methods  
+Comparing detection accuracy and effectiveness  
+Visualizing flagged cases  
 
 ---
 
