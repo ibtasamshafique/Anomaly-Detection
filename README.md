@@ -67,9 +67,9 @@ Visualizing flagged cases
 
 ---
 
-## 🚀 How to Use This Repository  
+## How to Use This Repository  
 
-### 🔧 **Requirements**  
+### **Requirements**  
 Install dependencies using:  
 ```bash
 pip install pandas numpy scikit-learn tensorflow matplotlib seaborn
