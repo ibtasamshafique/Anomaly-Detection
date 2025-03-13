@@ -61,7 +61,11 @@ The dataset represents the standard **car insurance claims process**, which foll
 - **Events that do not follow the expected process flow**  
 
 ### **Evaluation of Results**  
-Identifying common anomalies across methods  
+Identifying common anomalies across methods.
+Boxplots & Histograms
+Reconstruction Error Analysis
+Mean Squared Error (MSE) Comparison
+Silhouette Score
 Comparing detection accuracy and effectiveness  
 Visualizing flagged cases  
 
